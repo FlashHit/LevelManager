@@ -20,6 +20,7 @@
 | **SetNextLevel**(levelName: string, gameModeName: string, rounds: int) | bool |
 | **SetNextLevelIndex**(index: int) | bool |
 | **Add**(levelName: string, gameModeName: string, rounds: int) | bool |
+| **Add**(levelName: string, gameModeName: string, rounds: int, index: int) | bool |
 | **Remove**(index: int) | bool |
 | **Clear**() | bool |
 | **Load**() | bool |
